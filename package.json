@@ -1,0 +1,27 @@
+{
+  "name": "playwright",
+  "version": "1.0.0",
+  "main": "index.js",
+  "authors": [
+    {
+      "name": "Doan Quang Huy",
+      "email": "quanghuybest@gmail.com"
+    }
+  ],
+  "scripts": {
+    "test": "npx playwright test",
+    "ui": "npx playwright test --ui"
+  },
+  "keywords": [
+    "playwright",
+    "testing",
+    "automation"
+  ],
+  "author": "",
+  "license": "ISC",
+  "description": "",
+  "devDependencies": {
+    "@playwright/test": "^1.55.1",
+    "@types/node": "^24.5.2"
+  }
+}
